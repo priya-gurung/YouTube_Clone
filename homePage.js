@@ -1798,5 +1798,5 @@ const handleSearch = ()=>{
     const val = searchInputEle.value;
     const encodedVal = encodeURIComponent(val);
     console.log(val);
-    window.open(`/js/youtube/search/index.html?searchText=${val}`, "_self");
+    window.open(`/js/youtube/search/searchPage.html?searchText=${val}`, "_self");
 }
