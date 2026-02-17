@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.search-card-container{
+    display: flex;
+}
+
+.search-result-video-card{
+    padding: 10px;
+    display: flex;
+    
+}
+
+.thumbnail-container {
+    width: 50%;
+}
+
+.video-data-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    gap: 10px;
+}
