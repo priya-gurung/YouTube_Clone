@@ -1743,7 +1743,7 @@ const renderSearchResults = (data)=>{
             </div>
             <div class="video-data-container">
                 <h3>${title}</h3>
-                <p><span>${stats.views}</span><span>${publishedTimeText}</span></p>
+                <p><span>${stats.views} </span><span>${publishedTimeText}</span></p>
                 <p>${descriptionSnippet}</p>
             </div>
         `
